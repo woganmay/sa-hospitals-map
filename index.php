@@ -45,7 +45,7 @@
       
       var JSON;
   
-      $.getJSON('/resolve.php', function(response){
+      $.getJSON('resolve.php', function(response){
             $.each(response, function(i, v) {
               
               // Decide which icon to use
